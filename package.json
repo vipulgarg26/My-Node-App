@@ -1,0 +1,17 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "first node app",
+  "main": "index.js",
+  "scripts": {
+    "dev":  "nodemon server.js"
+  },
+  "author": "Vipul Garg",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.4",
+    "nodemon": "^1.17.1"
+  }
+}
